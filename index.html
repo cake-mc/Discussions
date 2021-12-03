@@ -1,6 +1,7 @@
 <html>
   <head>
-    <script src="https://kit.fontawesome.com/0e40655828.js" crossorigin="anonymous"></script>    <title>CakeMC 状态监控</title>
+    <script src="https://kit.fontawesome.com/0e40655828.js" crossorigin="anonymous"></script>
+    <title>CakeMC 状态监控</title>
     <link rel="alternate icon" href="https://cdn.jsdelivr.net/gh/Big-Cake-jpg/Image_For_My_Blog/favicon.png">
   </head>
   
@@ -18,6 +19,12 @@
     background-repeat:no-repeat;
     background-attachment:fixed;
   }
+  .loading {
+    margin-top: 100px;
+    z-index: -1;
+    width: 50%;
+    padding: 10px;
+  }
   </style>
   
   <body>
@@ -29,8 +36,8 @@
       <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=%E7%A6%BB%E7%BA%BF&label=CakeMC%20%E4%B8%BB%E7%AB%99%20%E7%8A%B6%E6%80%81%E7%9B%91%E6%8E%A7&style=flat-square&up_color=success&up_message=%E5%9C%A8%E7%BA%BF&url=https%3A%2F%2Fcake-mc.github.io">
     </div>
     
-    <div class="center">
-      <i class="fas fa-spinner fa-sync"></i>
+    <div class="loading">
+      <i class="fas fa-spin fa-sync"></i>
     </div>
     <script src="https://utteranc.es/client.js"
       repo="cake-mc/cake-mc.github.io"
